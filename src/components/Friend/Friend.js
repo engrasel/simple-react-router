@@ -19,7 +19,7 @@ const Friend = props => {
       <Link to={url}>Link</Link>
       <br />
       <Link to={url}>
-        <button>Link>button</button>
+        <button>Link button</button>
       </Link>
       <br />
       <button onClick={handleFriendClick}>button onClick</button>

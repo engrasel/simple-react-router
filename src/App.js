@@ -8,6 +8,7 @@ import NotFound from "./components/NotFound/NotFound";
 import Friends from "./components/Friends/Friends";
 import FriendDetails from "./components/FriendDetails/FriendDetails";
 import Navbar from "./components/Navbar/Navbar";
+import PostDetails from "./components/PostDetails/PostDetails";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/friends" element={<Friends />} />
         <Route path="/friend/:friendId" element={<FriendDetails />} />
+        <Route path="/:postId" element={<PostDetails />} />
         <Route path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
