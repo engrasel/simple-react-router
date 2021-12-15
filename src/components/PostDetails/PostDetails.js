@@ -20,7 +20,7 @@ const PostDetails = () => {
       {details.map(detail => {
         const { idMeal, strMealThumb, strMeal, strInstructions } = detail;
         return (
-          <div key={detail.idMeal} className="post_details">
+          <div key={idMeal} className="post_details">
             <img src={strMealThumb} alt="" />
             <h2>{strMeal}</h2>
             <p>{strInstructions}</p>
